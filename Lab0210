@@ -1,0 +1,27 @@
+package com.mycompany.ppd;
+import java.util.*;
+
+
+public class Lab0210 {
+    public static void main(String[] args) {
+            
+        Scanner scanner = new Scanner(System.in);
+            double num;
+            int i=0;
+            int cant=0;
+        
+        do {
+            System.out.println("Escriba un numero:");
+                num = scanner.nextDouble();
+                
+            System.out.println("El numero que ha introducido es: "+num);
+                i+=num;
+                cant=cant+1;
+        } 
+        while (num != 0);
+            System.out.println("Finalizado, se ha introducido el numero 0");
+            System.out.println("La cantidad de veces que ha escrito un numero es: "+cant);
+            System.out.println("La suma de sus numeros es: "+i);
+        
+    }
+}
