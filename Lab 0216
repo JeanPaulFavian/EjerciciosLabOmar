@@ -1,0 +1,22 @@
+package com.mycompany.ppd;
+import java.util.*;
+
+
+public class Lab0216 {
+    public static void main (String[]arg){
+        
+        Scanner scanner= new Scanner(System.in);
+        int i=0, num, posi=0;
+    
+        do {
+        i=i+1;
+        System.out.println("Ingrese el numero "+i+" :");
+        num=scanner.nextInt();
+            if (num>=0){
+                posi=posi+1;
+            } 
+        } 
+        while (i<20);
+            System.out.println("La cantidad de numeros positivos que ingreso es: "+posi);
+    }
+}
