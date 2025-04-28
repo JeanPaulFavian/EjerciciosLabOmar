@@ -1,0 +1,22 @@
+package com.mycompany.ppd;
+import java.util.*;
+
+
+
+public class Lab0211 {
+    public static void main (String [] args){
+        Scanner scanner = new Scanner(System.in);
+        
+        int num;
+        
+        System.out.println("Ingrese un numero: ");
+        num=scanner.nextInt();
+        
+        if (num % 6 == 0){
+            System.out.println("El numero que escribio es multiplo de 6:");
+        } else {
+            System.out.println("El numero no es multiplo");
+        }
+        
+    }
+}
